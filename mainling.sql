@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : lun. 22 mars 2021 à 11:05
+-- Généré le : mar. 23 mars 2021 à 16:47
 -- Version du serveur :  10.4.17-MariaDB
 -- Version de PHP : 8.0.0
 
@@ -41,11 +41,8 @@ CREATE TABLE `client` (
 --
 
 INSERT INTO `client` (`id`, `nom`, `prenom`, `email`, `tel`, `idM`) VALUES
-(1, 'sylla', 'papa', 'sylla@sn', '123345678', 2),
-(2, 'ngagne', 'fall', 'fall@sn', '12345678', 2),
-(3, 'sarr', 'amadou', 'sarr@sn', '1234567890', 2),
-(4, 'kane', 'arona', 'kane@sn', '1234567890', 2),
-(5, 'kdfjj', 'djkfjk', 'djfjkdjkldjkld', '2333949933', 2);
+(3, 'SARR', 'Papa Amadou', 'sarr@sn', '775928506', 2),
+(5, 'kdfjj', 'djkfjk', 'djfjkdjkldjkld', '886282544', 2);
 
 -- --------------------------------------------------------
 
@@ -64,8 +61,8 @@ CREATE TABLE `marketeur` (
 --
 
 INSERT INTO `marketeur` (`idMark`, `emailMark`, `password`) VALUES
-(1, 'jean@sn', 'passer'),
-(2, 'rhone@sn', 'passer');
+(1, 'am@sn', 'passer'),
+(2, 'papa@org', 'passer');
 
 --
 -- Index pour les tables déchargées
